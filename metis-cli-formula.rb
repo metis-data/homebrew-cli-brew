@@ -7,7 +7,7 @@ class MetisCliBrewFormulaScript < Formula
 
 
   def install
-     
+     bin.install 'homebrew-metis-cli-brew-formula'
   end
 
 end
