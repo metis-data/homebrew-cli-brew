@@ -1,4 +1,4 @@
-class MetisCliBrewFormulaScript < Formula
+class MetisCliFormula < Formula
   desc ""
   homepage ""
   url "https://github.com/metis-data/dba.ai/archive/refs/tags/dba-ai-repl@0.31.0.tar.gz"
