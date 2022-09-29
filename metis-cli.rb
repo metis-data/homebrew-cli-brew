@@ -1,4 +1,4 @@
-class MetisCliFormula < Formula
+class MetisCli < Formula
   desc ""
   homepage ""
   url "https://github.com/metis-data/metis-cli/releases/download/0.31.0/metis-macos-0.31.0"
