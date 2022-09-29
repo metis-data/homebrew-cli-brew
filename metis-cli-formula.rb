@@ -7,7 +7,9 @@ class MetisCliFormula < Formula
 
 
   def install
-    
+    mv metis-macos-0.31.0 metis
+    chmod +x metis
+    bin.install metis
   end
 
 end
