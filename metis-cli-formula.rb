@@ -3,7 +3,7 @@ class MetisCliFormula < Formula
   homepage ""
   url "https://github.com/metis-data/homebrew-metis-cli-brew-formula/archive/refs/tags/v0.0.1.tar.gz"
   version "1.0.0"
-  sha256 "943a36386c9f609e149b0feb99183975ad0fa738ae1912a210e05f7d912c67c6"
+  sha256 "f8f560be847e930369ddf7badb832994d8c28513d3fc71de43f28061837f3160"
 
   
   def install
