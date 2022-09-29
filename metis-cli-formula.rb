@@ -1,13 +1,17 @@
 class MetisCliFormula < Formula
   desc ""
   homepage ""
-  url "https://github.com/metis-data/dba.ai/archive/refs/tags/dba-ai-repl@0.31.0.tar.gz"
+  url "https://github.com/metis-data/homebrew-metis-cli-brew-formula/archive/refs/tags/v0.0.1.tar.gz"
   version "1.0.0"
-  sha256 "7eff26da13d33660c60d97c1a213c5de25b60e92e3bf6a287b90faba5ec0a15"
+  sha256 "943a36386c9f609e149b0feb99183975ad0fa738ae1912a210e05f7d912c67c6"
 
-
+  
   def install
-    
+    require 'net/http'
+    require 'uri'
+
+    uri = URI.parse("https://github.com/metis-data/dba.ai/archive/refs/tags/dba-ai-repl@0.31.0.tar.gz")
+    response = Net::HTTP.get_response(uri)
   end
 
 end
