@@ -11,7 +11,6 @@ class MetisCli < Formula
 
     File.rename("metis_macos_0.32.1", "metis-cli")
     FileUtils.chmod("+x", "metis-cli")
-    bin.uninstall "metis-cli"
     bin.install "metis-cli"
   end
 
