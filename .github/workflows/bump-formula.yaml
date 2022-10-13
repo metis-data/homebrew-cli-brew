@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: dawidd6/action-homebrew-bump-formula@v3
         with:
-          token: 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
+          token: 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
           tap: metis-data/homebrew-cli-brew
           formula: MetisCli
