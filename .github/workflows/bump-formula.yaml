@@ -1,0 +1,16 @@
+name: Bump Homebrew formula
+
+on:
+  push:
+    tags: '*'
+
+jobs:
+  homebrew:
+    name: Bump Homebrew formula
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dawidd6/action-homebrew-bump-formula@v3
+        with:
+          token: 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
+          tap: metis-data/homebrew-cli-brew
+          formula: MetisCli
