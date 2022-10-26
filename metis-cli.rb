@@ -9,7 +9,7 @@ class MetisCli < Formula
   def install
     require "fileutils"
 
-    File.rename("metis_macos_0.4.1.2", "metis-cli")
+    File.rename("metis_macos_0.4.2", "metis-cli")
     FileUtils.chmod("+x", "metis-cli")
     bin.install "metis-cli"
   end
